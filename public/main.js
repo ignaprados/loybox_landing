@@ -1,3 +1,9 @@
+
+/* html overflow-y auto after 1.6s */
+setTimeout(function () {
+    document.getElementsByTagName("html")[0].style.overflowY = "auto";
+}, 1700);
+
 /* ===== INTRO ===== */
 const tl = gsap.timeline({ defaults: { ease: Power1.easeInOut } });
 const home = document.getElementById('preloader')
@@ -12,10 +18,6 @@ setTimeout(function () {
     home.style.display = "none";
 }, 2000);
 
-/* html overflow-y auto after 1.6s */
-setTimeout(function () {
-    document.getElementsByTagName("html")[0].style.overflowY = "auto";
-}, 1700);
 
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
