@@ -17,6 +17,11 @@ setTimeout(function () {
     document.getElementsByTagName("html")[0].style.overflowY = "auto";
 }, 1700);
 
+window.onload = function() {
+    var video = document.getElementById('myVideo');
+    video.play();
+  };
+
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const sr = ScrollReveal({
     distance: '30px',
