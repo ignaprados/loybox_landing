@@ -23,15 +23,19 @@ html {
     align-items: center;
 }
 
-video {
-    -webkit-tap-highlight-color: transparent; /* Para navegadores WebKit (Safari) */
-}
-
-
 .preloaderLogo {
     width: 100px;
     height: 100px;
 }
+
+.preloaderBg {
+    background-color: black; /* o el color que desees */
+  }
+
+  .preloaderVideo {
+    background-color: transparent;
+    /* Otros estilos que desees aplicar al video */
+  }
 
 .path1, .path2, .path3 {
     fill: white;

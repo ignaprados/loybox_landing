@@ -18,13 +18,6 @@ setTimeout(function () {
 }, 1700);
 
 
-var videoElement = document.querySelector('.preloaderVideo');
-
-// Agrega un evento touchstart al elemento de video para prevenir la acción táctil
-videoElement.addEventListener('touchstart', function (e) {
-    e.preventDefault();
-});
-
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const sr = ScrollReveal({
