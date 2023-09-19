@@ -8,18 +8,18 @@ html {
 }
 
 @font-face {
-    font-family: 'neue_haas_grotesk_display65Md';
-    src: url('./fonts/neuehaasdisplay-mediu-webfont.woff2') format('woff2'),
-         url('./fonts/neuehaasdisplay-mediu-webfont.woff') format('woff');
+    font-family: 'loybox-medium';
+    src: url('./fonts/loybox-medium.woff2') format('woff2'),
+         url('./fonts/loybox-medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'neue_haas_grotesk_disp55roman';
-    src: url('./fonts/neuehaasdisplay-roman-webfont.woff2') format('woff2'),
-         url('./fonts/neuehaasdisplay-roman-webfont.woff') format('woff');
+    font-family: 'loybox-roman';
+    src: url('./fonts/loybox-roman.woff2') format('woff2'),
+         url('./fonts/loybox-roman.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -72,7 +72,7 @@ html {
 
 .loybox-text{
     color: var(--white, #FFF);
-    font-family: 'neue_haas_grotesk_display65Md';
+    font-family: 'loybox-medium';
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -87,7 +87,7 @@ html {
 
 .landing-user-navbar-button,
 .landing-user-navbar-button-register{
-    font-family: 'neue_haas_grotesk_display65Md';
+    font-family: 'loybox-medium';
     font-size: 20px;
     font-style: normal;
     line-height: normal;
@@ -129,7 +129,7 @@ html {
 .subtitle{
     color: var(--White, #FFF);
     text-align: center;
-    font-family: 'neue_haas_grotesk_disp55roman';
+    font-family: 'loybox-roman';
     font-size: 24px;
     font-weight: 500;
     width: 419px;
@@ -139,7 +139,7 @@ html {
 .title{
     color: var(--White, #FFF);
     text-align: center;
-    font-family: 'neue_haas_grotesk_disp55roman';
+    font-family: 'loybox-roman';
     font-size: 80px;
     font-weight: 500;
     width: 871px;
@@ -177,7 +177,7 @@ html {
 
 .whitelistText{
     color: var(--Black, #000);
-    font-family: 'neue_haas_grotesk_display65Md';
+    font-family: 'loybox-medium';
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -200,7 +200,7 @@ a{
 
 .emailText{
     color: var(--White, #FFF);
-    font-family: 'neue_haas_grotesk_display65Md';
+    font-family: 'loybox-medium';
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -229,7 +229,7 @@ a{
 .title2{
     color: var(--White, #FFF);
     text-align: center;
-    font-family: 'neue_haas_grotesk_disp55roman';
+    font-family: 'loybox-roman';
     font-size: 60px;
     font-weight: 500;
     width: 1115px;
@@ -281,7 +281,7 @@ a{
     border: 1px solid var(--Border-White, #EEE);
     background: var(--Input-White, #FBFBFB);
     color: var(--Light-Grey, #000);
-    font-family: 'neue_haas_grotesk_disp55roman';
+    font-family: 'loybox-roman';
     font-size: 20px;
     font-weight: 500;
     padding-left: 30px;
@@ -289,7 +289,7 @@ a{
 
 .inputFormWhite::placeholder{
     color: var(--Light-Grey, #9F9F9F);
-    font-family: 'neue_haas_grotesk_disp55roman';
+    font-family: 'loybox-roman';
     font-size: 20px;
     font-weight: 500;
 }
@@ -311,7 +311,7 @@ a{
 
 .title3{
     color: var(--Black, #000);
-    font-family: 'neue_haas_grotesk_display65Md';
+    font-family: 'loybox-medium';
     font-size: 23.61666666666668vw;
     font-weight: 600;
     margin: 0 auto 0 auto;
@@ -319,7 +319,7 @@ a{
 
 .buttonFormWhiteText{
     color: var(--White, #FFF);
-    font-family: 'neue_haas_grotesk_display65Md';
+    font-family: 'loybox-medium';
     font-size: 20px;
     font-weight: 600;
 }
@@ -327,7 +327,7 @@ a{
 .divWhiteTitle{
     color: var(--Black, #000);
     text-align: center;
-    font-family: 'neue_haas_grotesk_disp55roman';
+    font-family: 'loybox-roman';
     font-size: 60px;
     font-weight: 500;
     margin: 0;
@@ -350,7 +350,7 @@ a{
 
 .creditsText{
     color: var(--Black, #000);
-    font-family: 'neue_haas_grotesk_disp55roman';
+    font-family: 'loybox-roman';
     font-size: 20px;
     font-weight: 500;
     margin: 0;
