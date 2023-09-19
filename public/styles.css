@@ -8,12 +8,12 @@ html {
 }
 
 @font-face {
-    font-family: "Loybox-Roman"; /*a name to be used later*/
+    font-family: 'Loybox-Roman'; /*a name to be used later*/
     src: url('https://loybox.com.ar/fonts/Loybox-Roman.woff2') format("woff2"); /*URL to font*/
 }
 
 @font-face {
-    font-family: "Loybox-Medium"; /*a name to be used later*/
+    font-family: 'Loybox-Medium'; /*a name to be used later*/
     src: url('https://loybox.com.ar/fonts/Loybox-Medium.woff2') format("woff2"); /*URL to font*/
 }
 
