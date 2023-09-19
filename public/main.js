@@ -1,9 +1,3 @@
-
-/* html overflow-y auto after 1.6s */
-setTimeout(function () {
-    document.getElementsByTagName("html")[0].style.overflowY = "auto";
-}, 1700);
-
 /* ===== INTRO ===== */
 const tl = gsap.timeline({ defaults: { ease: Power1.easeInOut } });
 const home = document.getElementById('preloader')
@@ -17,6 +11,11 @@ tl.to(".preloaderBg", { y: "-100%", duration: .75, delay: 1.8 });
 setTimeout(function () {
     home.style.display = "none";
 }, 2000);
+
+/* html overflow-y auto after 1.6s */
+setTimeout(function () {
+    document.getElementsByTagName("html")[0].style.overflowY = "auto";
+}, 20900);
 
 
 
