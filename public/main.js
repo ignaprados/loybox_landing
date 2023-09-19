@@ -2,6 +2,7 @@
 const tl = gsap.timeline({ defaults: { ease: Power1.easeInOut } });
 const home = document.getElementById('preloader')
 
+tl.fromTo(".preloaderLogo", { opacity: 0 }, { opacity: 1, delay: .1 });
 tl.fromTo(".preloaderBg", { opacity: 1 }, { opacity: 0, delay: 1.6 });
 tl.fromTo(".preloaderLogo", { opacity: 1 }, { opacity: 0, delay: 1.4 });
 
