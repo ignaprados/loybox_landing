@@ -10,5 +10,9 @@ const sr = ScrollReveal({
   sr.reveal('.textTitle',{delay: 100, origin: 'bottom'});
 
 /* = SCROLL IMG = */
-sr.reveal('.imagen',{delay: 1000, interval: 350, origin: 'bottom'});
+sr.reveal('.imagen',{delay: 400, interval: 50, origin: 'bottom'});
 
+/* = SCROLL ABOUT = */
+sr.reveal('.title2',{delay: 300, origin: 'bottom'});
+sr.reveal('.divWhiteTitle',{delay: 300, origin: 'left'});
+sr.reveal('.formWhite',{delay: 300, origin: 'right'});
