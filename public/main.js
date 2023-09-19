@@ -12,6 +12,10 @@ setTimeout(function () {
     home.style.display = "none";
 }, 2000);
 
+/* html overflow-y auto after 1.6s */
+setTimeout(function () {
+    document.getElementsByTagName("html")[0].style.overflowY = "auto";
+}, 1600);
 
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
