@@ -455,7 +455,7 @@ a{
 
 @media (max-width: 1000px)  {
     .title{
-        font-size: 37.31px;
+        font-size: 40px;
         max-width: 325px;
         margin: 20px auto 40px auto;
 
@@ -543,5 +543,11 @@ a{
         flex-direction: column;
         gap: 30px;
         margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 355px)  {
+    .title {
+        font-size: 37.31px;
     }
 }
