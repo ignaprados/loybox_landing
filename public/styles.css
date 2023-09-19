@@ -8,12 +8,12 @@ html {
 }
 
 @font-face {
-    font-family: 'Loybox Roman'; /*a name to be used later*/
+    font-family: ''Loybox Roman''; /*a name to be used later*/
     src: url('https://loybox.com.ar/fonts/Loybox-Roman.woff2') format("woff2"); /*URL to font*/
 }
 
 @font-face {
-    font-family: 'Loybox Medium'; /*a name to be used later*/
+    font-family: ''Loybox Medium''; /*a name to be used later*/
     src: url('https://loybox.com.ar/fonts/Loybox-Medium.woff2') format("woff2"); /*URL to font*/
 }
 
@@ -65,7 +65,7 @@ html {
 
 .loybox-text{
     color: var(--white, #FFF);
-    font-family: Loybox Medium;
+    font-family: 'Loybox Medium';
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -80,7 +80,7 @@ html {
 
 .landing-user-navbar-button,
 .landing-user-navbar-button-register{
-    font-family: Loybox Medium;
+    font-family: 'Loybox Medium';
     font-size: 20px;
     font-style: normal;
     line-height: normal;
@@ -122,7 +122,7 @@ html {
 .subtitle{
     color: var(--White, #FFF);
     text-align: center;
-    font-family: Loybox Roman;
+    font-family: 'Loybox Roman';
     font-size: 24px;
     font-weight: 500;
     width: 419px;
@@ -132,7 +132,7 @@ html {
 .title{
     color: var(--White, #FFF);
     text-align: center;
-    font-family: Loybox Roman;
+    font-family: 'Loybox Roman';
     font-size: 80px;
     font-weight: 500;
     width: 871px;
@@ -170,7 +170,7 @@ html {
 
 .whitelistText{
     color: var(--Black, #000);
-    font-family: Loybox Medium;
+    font-family: 'Loybox Medium';
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -193,7 +193,7 @@ a{
 
 .emailText{
     color: var(--White, #FFF);
-    font-family: Loybox Medium;
+    font-family: 'Loybox Medium';
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -222,7 +222,7 @@ a{
 .title2{
     color: var(--White, #FFF);
     text-align: center;
-    font-family: Loybox Roman;
+    font-family: 'Loybox Roman';
     font-size: 60px;
     font-weight: 500;
     width: 1115px;
@@ -274,7 +274,7 @@ a{
     border: 1px solid var(--Border-White, #EEE);
     background: var(--Input-White, #FBFBFB);
     color: var(--Light-Grey, #000);
-    font-family: Loybox Roman;
+    font-family: 'Loybox Roman';
     font-size: 20px;
     font-weight: 500;
     padding-left: 30px;
@@ -282,7 +282,7 @@ a{
 
 .inputFormWhite::placeholder{
     color: var(--Light-Grey, #9F9F9F);
-    font-family: Loybox Roman;
+    font-family: 'Loybox Roman';
     font-size: 20px;
     font-weight: 500;
 }
@@ -304,7 +304,7 @@ a{
 
 .title3{
     color: var(--Black, #000);
-    font-family: Loybox Medium;
+    font-family: 'Loybox Medium';
     font-size: 23.61666666666668vw;
     font-weight: 600;
     margin: 0 auto 0 auto;
@@ -312,7 +312,7 @@ a{
 
 .buttonFormWhiteText{
     color: var(--White, #FFF);
-    font-family: Loybox Medium;
+    font-family: 'Loybox Medium';
     font-size: 20px;
     font-weight: 600;
 }
@@ -320,7 +320,7 @@ a{
 .divWhiteTitle{
     color: var(--Black, #000);
     text-align: center;
-    font-family: Loybox Roman;
+    font-family: 'Loybox Roman';
     font-size: 60px;
     font-weight: 500;
     margin: 0;
@@ -343,7 +343,7 @@ a{
 
 .creditsText{
     color: var(--Black, #000);
-    font-family: Loybox Roman;
+    font-family: 'Loybox Roman';
     font-size: 20px;
     font-weight: 500;
     margin: 0;
