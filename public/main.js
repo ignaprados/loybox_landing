@@ -23,10 +23,11 @@ const sr = ScrollReveal({
   });
 
 /* = SCROLL HOME = */
-sr.reveal('.landing-user-navbar',{delay:3200, origin:'top'});
-sr.reveal('.textTitle',{delay: 3200, origin: 'bottom'});
+sr.reveal('.landing-user-navbar',{delay:2200, origin:'top'});
+sr.reveal('.textTitle',{delay: 2200, origin: 'bottom'});
 
 /* = SCROLL IMG = */
+sr.reveal('#first-img',{delay: 2200, origin: 'bottom'});
 sr.reveal('.imagen',{delay: 400, interval: 50, origin: 'bottom'});
 
 /* = SCROLL ABOUT = */
