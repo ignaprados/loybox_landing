@@ -26,7 +26,7 @@ sr.reveal('.landing-user-navbar',{delay:1800, origin:'bottom'});
 sr.reveal('.textTitle',{delay: 1800, origin: 'bottom'});
 
 /* = SCROLL IMG = */
-sr.reveal('.imagen1',{delay: 2200, origin: 'bottom'});
+sr.reveal('.imagen1',{delay: 1800, origin: 'top'});
 sr.reveal('.imagen',{delay: 400, interval: 50, origin: 'bottom'});
 
 /* = SCROLL ABOUT = */
