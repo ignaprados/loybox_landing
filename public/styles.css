@@ -406,6 +406,12 @@ a{
 
     }
 
+    .buttonsWhitelist-Email{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
     .subtitle{
         display: none;
     }
@@ -420,11 +426,6 @@ a{
 }
 
 @media (max-width: 900px)  {
-    .buttonsWhitelist-Email{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
 
     .loyboxandlogo{
         height: 26.3px;
