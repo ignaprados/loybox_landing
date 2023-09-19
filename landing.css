@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Estilos para la barra de desplazamiento */
 ::-webkit-scrollbar {
     width: 12px;
@@ -36,7 +40,10 @@ body {
 .landing-user-navbar{
     display: flex;
     justify-content: space-between;
-    margin: 20px 110px 0 110px; /*cambiar cuando tengamos bodys no globales*/
+    margin: auto;
+    width: 100%;
+    max-width: 1620px;
+    padding-top: 50px;
 }
 
 .landing-user-navbar-main{
@@ -87,32 +94,7 @@ body {
     position: relative;
 }
 
-.landing-user-navbar-button::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background-color: white;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.2s ease;
-}
 
-.landing-user-navbar-button:hover::after {
-    transform: scaleX(1);
-}
-
-.landing-user-navbar-button-register:hover{
-    background-color: white;
-    color: black;
-}
-
-.landing-user-navbar-button-register:hover
-.landing-user-navbar-button-registrate-img {
-    filter: invert(100%);
-}
 
 .landing-user-navbar-button-registrate-img{
     margin-right: 10px;
@@ -152,7 +134,7 @@ body {
 
 .buttonsWhitelist-Email{
     height: 65px;
-    max-width: 505px;
+    max-width: 507px;
     margin: 0 auto;
 }
 
@@ -165,6 +147,14 @@ body {
     align-items: center;
     gap: 10px;
     border-radius: 50px;
+    transition: all 0.3s ease;
+    border: 1px solid #000;
+
+}
+
+.whitelist:hover {
+    filter: invert(1);
+
 }
 
 .whitelistText{
@@ -187,6 +177,7 @@ a{
     gap: 10px;
     width: 275px;
     height: 65px;
+    transition: all 0.3s ease;
 }
 
 .emailText{
@@ -196,6 +187,10 @@ a{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.email:hover{
+    transform: translateY(-10px)
 }
 
 .imagenes {
@@ -239,7 +234,7 @@ a{
 .whiteBackground2{
     background-color: white;
     width: 100%;
-    padding: 0px 0 80px 0;
+    padding: 0px 0 30px 0;
     margin: 0 auto 0 auto;
     text-align: center;
 }
@@ -266,6 +261,11 @@ a{
     border-radius: 20px 0px 0px 20px;
     border: 1px solid var(--Border-White, #EEE);
     background: var(--Input-White, #FBFBFB);
+    color: var(--Light-Grey, #000);
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 30px;
 }
 
 .inputFormWhite::placeholder{
@@ -273,12 +273,11 @@ a{
     font-family: Neue Haas Grotesk Display Pro;
     font-size: 20px;
     font-weight: 500;
-    padding-left: 30px;
 }
 
 .buttonFormWhite{
     display: inline-flex;
-    height: 70px;
+    height: 74px;
     padding: 20px 30px;
     justify-content: center;
     align-items: center;
@@ -287,6 +286,7 @@ a{
     border-radius: 0px 20px 20px 0px;
     background: var(--Black, #000);
     border: none;
+    cursor: pointer;
 
 }
 
@@ -295,7 +295,7 @@ a{
     font-family: Neue Haas Grotesk Display Pro;
     font-size: 26.041666666666668vw;
     font-weight: 600;
-    margin: 80px auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 
 .buttonFormWhiteText{
@@ -338,8 +338,22 @@ a{
     margin: 0;
 }
 
-.social:not(:last-child){
-    margin-right: 30px;
+.socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.socialIcons a {
+    transition: all .3s ease;
+    cursor: pointer;
+
+}
+
+.socialIcons a:hover {
+    transform: translateY(-10px);
 }
 
 @media (max-width: 1400px)  {
