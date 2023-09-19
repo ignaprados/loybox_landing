@@ -18,7 +18,6 @@ setTimeout(function () {
 }, 1700);
 
 
-
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const sr = ScrollReveal({
     distance: '30px',
