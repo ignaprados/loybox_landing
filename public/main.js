@@ -2,9 +2,10 @@
 const tl = gsap.timeline({ defaults: { ease: Power1.easeInOut } });
 const home = document.getElementById('preloader')
 
-tl.fromTo(".preloaderBg", { opacity: 1 }, { opacity: 0, delay: 3 });
+tl.fromTo(".preloaderBg", { opacity: 1 }, { opacity: 0, delay: 2 });
+tl.fromTo(".preloaderLogo", { opacity: 1 }, { opacity: 0, delay: 1.7 });
 
-tl.to(".preloaderBg", { y: "-100%", duration: .75, delay: 4 });
+tl.to(".preloaderBg", { y: "-100%", duration: .75, delay: 2.3 });
 tl.set("html", { overflowY: "auto" });
 
 /* display none preloaderbg after 4 sec */
