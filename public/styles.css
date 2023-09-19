@@ -8,14 +8,15 @@ html {
 }
 
 @font-face {
-    font-family: 'Loybox-Roman'; /*a name to be used later*/
-    src: url('https://loybox.com.ar/fonts/'Loybox-Roman'.woff2') format("woff2"); /*URL to font*/
+    font-family: 'Loybox-Roman';
+    src: url('https://loybox.com.ar/fonts/Loybox-Roman.woff2') format("woff2");
 }
 
 @font-face {
-    font-family: 'Loybox-Medium'; /*a name to be used later*/
-    src: url('https://loybox.com.ar/fonts/'Loybox-Medium'.woff2') format("woff2"); /*URL to font*/
+    font-family: 'Loybox-Medium';
+    src: url('https://loybox.com.ar/fonts/Loybox-Medium.woff2') format("woff2");
 }
+
 
 
 /* Estilos para la barra de desplazamiento */
