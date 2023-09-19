@@ -22,7 +22,7 @@ const sr = ScrollReveal({
   });
 
 /* = SCROLL HOME = */
-sr.reveal('.landing-user-navbar',{delay:1800, origin:'top'});
+sr.reveal('.landing-user-navbar',{delay:1800, origin:'bottom'});
 sr.reveal('.textTitle',{delay: 1800, origin: 'bottom'});
 
 /* = SCROLL IMG = */
