@@ -35,14 +35,19 @@ html {
   
 .path1 {
     animation: animatePath1 1.5s ease;
+    animation-delay: 1s;
+
 }
 
 .path2 {
     animation: animatePath2 1s ease;
+    animation-delay: 1s;
+
 }
 
 .path3 {
     animation: animatePath3 1.5s ease;
+    animation-delay: 1s;
 }
   
 @keyframes animatePath1 {
