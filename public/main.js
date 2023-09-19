@@ -17,8 +17,6 @@ setTimeout(function () {
     document.getElementsByTagName("html")[0].style.overflowY = "auto";
 }, 1700);
 
-
-
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const sr = ScrollReveal({
     distance: '30px',
