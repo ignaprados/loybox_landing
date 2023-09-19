@@ -198,10 +198,19 @@ a{
     line-height: normal;
 }
 
-.imagen{
+.imagenes {
     display: flex;
-    margin: 40px auto 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 20px
+}
+
+.imagen{
+    margin: auto;
+    width: 100%;
     max-width: 1620px;
+    height:100%;
 }
 
 .title2{
