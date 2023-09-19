@@ -6,7 +6,6 @@ body {
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .preloaderBg {
@@ -184,7 +183,7 @@ html {
     font-family: 'loybox-roman';
     font-size: 80px;
     font-weight: 500;
-    width: 994px;
+    width: 871px;
     margin: 20px 0 40px 0;
 }
 
