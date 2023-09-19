@@ -54,8 +54,8 @@
   </head>
   <body>
     <!-- Preloader -->
-    <div class="preloaderBg" id="preloader">
-      <video class="preloaderVideo" width="480" height="270" id="myVideo" muted>
+    <div class="preloaderBg" id="preloader" onload="preloader()">
+      <video class="preloaderVideo" width="480" height="270" autoplay muted playsinline>
         <source src="/img/logoanimation.mp4" type="video/mp4">
         <source src="/img/logoanimation.mp4" type="video/webm">
         <source src="/img/logoanimation.mp4" type="video/ogg">
