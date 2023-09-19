@@ -1,0 +1,340 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+/* Estilos para la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: rgb(0, 0, 0);
+    
+  }
+
+    /* Estilos para la barra de desplazamiento (la parte que se arrastra) */
+    ::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    }
+
+    /* Estilos para la barra de desplazamiento (hover) */
+    ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(255, 255, 255);
+    }
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+.landing-user{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing-user-navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 110px 0 110px; /*cambiar cuando tengamos bodys no globales*/
+}
+
+.landing-user-navbar-main{
+    display: flex;
+}
+
+.loybox-text{
+    color: var(--white, #FFF);
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: auto 0 auto 25px;
+}
+
+.landing-user-navbar-buttons{
+    display: flex;
+    align-items: center;
+}
+
+.landing-user-navbar-button,
+.landing-user-navbar-button-register{
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    margin-right: 70px;
+}
+
+.landing-user-navbar-button-register{
+    color: var(--white, #FFF);
+    border: 1px white solid;
+    padding: 0px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.2s;
+    min-width: 113px;
+    align-items: center;
+    display: flex;
+    margin-right: 0 !important;
+}
+
+.landing-user-navbar-button {
+    text-decoration: line-through;
+    color: #9F9F9F;
+    font-weight: 500;
+    position: relative;
+}
+
+.landing-user-navbar-button::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s ease;
+}
+
+.landing-user-navbar-button:hover::after {
+    transform: scaleX(1);
+}
+
+.landing-user-navbar-button-register:hover{
+    background-color: white;
+    color: black;
+}
+
+.landing-user-navbar-button-register:hover
+.landing-user-navbar-button-registrate-img {
+    filter: invert(100%);
+}
+
+.landing-user-navbar-button-registrate-img{
+    margin-right: 10px;
+    transition: all 0.1s;
+}
+
+.textTitle{
+    display: flex;
+    flex-direction: column;
+    width: 871px;
+    margin: 150px auto 140px;
+}
+
+.subtitle{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 24px;
+    font-weight: 500;
+    width: 419px;
+    margin: 0 auto;
+}
+
+.title{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 80px;
+    font-weight: 500;
+    width: 871px;
+    margin: 20px 0 40px 0;
+}
+
+.titleBold{
+    font-weight: 600 !important;
+}
+
+.buttonsWhitelist-Email{
+    height: 65px;
+    max-width: 505px;
+    margin: 0 auto;
+}
+
+.whitelist{
+    width: 225px;
+    height: 65px;
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+}
+
+.whitelistText{
+    color: var(--Black, #000);
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.email{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 275px;
+    height: 65px;
+}
+
+.emailText{
+    color: var(--White, #FFF);
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.imagen{
+    display: flex;
+    margin: 40px auto 0 auto;
+    max-width: 1620px;
+}
+
+.title2{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 60px;
+    font-weight: 500;
+    width: 1115px;
+    margin: 350px auto 200px auto;
+}
+
+.loyvectors{
+    width: 100%;
+    margin: 0;
+}
+
+.whiteBackground{
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    margin-top: -5px;
+    padding: 80px 0 80px 0;
+}
+
+.whiteBackground2{
+    background-color: white;
+    width: 100%;
+    padding: 0px 0 80px 0;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.divWhite{
+    display: flex;
+    padding-top: 80px;
+    max-width: 1620px;
+    margin: -4px auto 0 auto;
+    justify-content: space-between;
+}
+
+.formWhite{
+    display: flex;
+}
+
+.inputFormWhite{
+    display: flex;
+    width: 437px;
+    height: 70px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 20px 0px 0px 20px;
+    border: 1px solid var(--Border-White, #EEE);
+    background: var(--Input-White, #FBFBFB);
+}
+
+.inputFormWhite::placeholder{
+    color: var(--Light-Grey, #9F9F9F);
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.buttonFormWhite{
+    display: inline-flex;
+    height: 70px;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 0px 20px 20px 0px;
+    background: var(--Black, #000);
+    border: none;
+
+}
+
+.title3{
+    color: var(--Black, #000);
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 26.041666666666668vw;
+    font-weight: 600;
+    margin: 80px auto 0 auto;
+}
+
+.buttonFormWhiteText{
+    color: var(--White, #FFF);
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.divWhiteTitle{
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0;
+    max-width: 673px;
+}
+
+.line{
+    width: 1620px;
+    height: 1px;
+    background-color: #EEE;
+    margin: 0 auto 0 auto;
+}
+
+.credits{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1620px;
+    margin: 30px auto 0 auto;
+}
+
+.creditsText{
+    color: var(--Black, #000);
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.social:not(:last-child){
+    margin-right: 30px;
+}
+
+@media (max-width: 1400px)  {
+    .landing-user-navbar-button{
+        display: none;
+    }
+}
