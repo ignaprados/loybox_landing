@@ -369,6 +369,11 @@ a{
 }
 
 @media (max-width: 1400px)  {
+
+    .landing-user-navbar {
+        padding-top: 30px;
+    }
+
     .landing-user-navbar-button{
         display: none;
     }
@@ -403,6 +408,7 @@ a{
 
     .textTitle{
         max-width: 325px;
+        margin: 100px auto 200px;
     }
     .lista{
         text-align: center;
