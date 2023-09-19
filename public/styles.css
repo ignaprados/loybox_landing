@@ -34,7 +34,7 @@ html {
     }
 
     50% {
-        transform: scale(1.3);
+        transform: scale(1.2);
     }
 
     100% {
@@ -43,7 +43,7 @@ html {
 }
 
 .preloaderLogo {
-    animation: scale 1s infinite;
+    animation: scale .7s infinite;
 }
 
 @font-face {
