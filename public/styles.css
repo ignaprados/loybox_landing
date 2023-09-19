@@ -43,7 +43,7 @@ html {
 }
 
 .preloaderLogo {
-    animation: scale .7s infinite;
+    animation: scale 1.5s infinite;
 }
 
 @font-face {
