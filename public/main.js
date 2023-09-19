@@ -1,3 +1,20 @@
+/* ===== INTRO ===== */
+const tl = gsap.timeline({ defaults: { ease: Power1.easeInOut } });
+const home = document.getElementById('preloader')
+
+tl.set("html", { overflowY: "hidden" });
+tl.fromTo(".preloaderBg", { opacity: 1 }, { opacity: 0, delay: 3 });
+
+tl.to(".preloaderBg", { y: "-100%", duration: .75, delay: 4 });
+tl.set("html", { overflowY: "auto" });
+
+/* display none preloaderbg after 4 sec */
+setTimeout(function () {
+    home.style.display = "none";
+}, 4000);
+
+
+
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const sr = ScrollReveal({
     distance: '30px',
@@ -5,9 +22,9 @@ const sr = ScrollReveal({
     reset: false,
   });
 
-  /* = SCROLL HOME = */
-  sr.reveal('.landing-user-navbar',{delay:100, origin:'top'});
-  sr.reveal('.textTitle',{delay: 100, origin: 'bottom'});
+/* = SCROLL HOME = */
+sr.reveal('.landing-user-navbar',{delay:3200, origin:'top'});
+sr.reveal('.textTitle',{delay: 3200, origin: 'bottom'});
 
 /* = SCROLL IMG = */
 sr.reveal('.imagen',{delay: 400, interval: 50, origin: 'bottom'});

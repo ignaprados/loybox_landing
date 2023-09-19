@@ -53,10 +53,15 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
+    <!-- Preloader -->
+    <div class="preloaderBg" id="preloader" onload="preloader()">
+      <img class="preloaderLogo" src="/img/favicon.svg" alt="Loybox logo preloader">
+    </div>
+
     <div class="landing-user">
       <div class="landing-user-navbar">
         <div class="landing-user-navbar-main">
-          <img class="loyboxandlogo" src="/img/loyboxandlogo.svg" alt="">
+          <img class="loyboxandlogo" src="/img/loyboxandlogo.svg" alt="Loybox Logo">
         </div>
         <div class="landing-user-navbar-buttons">
           <p class="landing-user-navbar-button">Plataforma</p>
@@ -195,7 +200,11 @@
   <!-- Scroll Reveal Script -->
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
-    <!-- JS -->
-    <script src="main.js"></script>
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+
+  <!-- JS -->
+  <script src="main.js"></script>
+
 
   </html>
