@@ -33,7 +33,7 @@ html {
     transform-origin: center;
     animation-fill-mode: forwards;
 }
-  
+
 .path1 {
     animation: animatePath1 1.5s ease;
 }
@@ -45,7 +45,7 @@ html {
 .path3 {
     animation: animatePath3 1.5s ease;
 }
-  
+
 @keyframes animatePath1 {
     0% {
       transform: translateX(50%) translateY(-50%);
@@ -59,7 +59,7 @@ html {
       opacity: 100%;
     }
 }
-  
+
 @keyframes animatePath2 {
     0% {
       transform: translateX(-50%) translateY(50%);
@@ -73,7 +73,7 @@ html {
       opacity: 100%;
     }
 }
-  
+
 @keyframes animatePath3 {
     0% {
       transform: translateX(50%) translateY(-50%);
