@@ -23,6 +23,11 @@ html {
     align-items: center;
 }
 
+video {
+    -webkit-tap-highlight-color: transparent; /* Para navegadores WebKit (Safari) */
+}
+
+
 .preloaderLogo {
     width: 100px;
     height: 100px;
