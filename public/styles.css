@@ -46,6 +46,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0px 20px;
 }
 
 .landing-user-navbar{
@@ -55,6 +56,7 @@ html {
     width: 100%;
     max-width: 1620px;
     padding-top: 50px;
+    align-items: center;
 }
 
 .landing-user-navbar-main{
@@ -104,8 +106,6 @@ html {
     font-weight: 500;
     position: relative;
 }
-
-
 
 .landing-user-navbar-button-registrate-img{
     margin-right: 10px;
@@ -252,10 +252,11 @@ a{
 
 .divWhite{
     display: flex;
-    padding-top: 80px;
     max-width: 1620px;
     margin: -4px auto 0 auto;
     justify-content: space-between;
+    padding: 80px 20px 0 20px;
+    align-items: center;
 }
 
 .formWhite{
@@ -287,7 +288,7 @@ a{
 }
 
 .buttonFormWhite{
-    display: inline-flex;
+    display: flex;
     height: 74px;
     padding: 20px 30px;
     justify-content: center;
@@ -370,5 +371,98 @@ a{
 @media (max-width: 1400px)  {
     .landing-user-navbar-button{
         display: none;
+    }
+    .title2{
+        font-size: 33.49px;
+        max-width: 325px;
+    }
+    .divWhiteTitle{
+        font-size: 28.95px;
+    }
+}
+
+@media (max-width: 1100px)  {
+    .divWhite{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 1000px)  {
+    .title{
+        font-size: 37.31px;
+        max-width: 325px;
+        margin: 20px auto 40px auto;
+
+    }
+
+    .subtitle{
+        display: none;
+    }
+
+    .textTitle{
+        max-width: 325px;
+    }
+    .lista{
+        text-align: center;
+    }
+}
+
+@media (max-width: 900px)  {
+    .buttonsWhitelist-Email{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .loyboxandlogo{
+        height: 26.3px;
+        width: 117px;
+    }
+
+    .landing-user-navbar-button-register{
+        width: 150.65px;
+        height: 43.34px;
+        font-size: 13.54px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .landing-user-navbar-button-register svg{
+        width: 16.25px;
+        height: 16.25px;
+    }
+}
+
+@media (max-width: 750px)  {
+    .formWhite{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .inputFormWhite{
+        border-radius: 20px;
+        max-width: 325px;
+        width: 100%;
+        padding-right: 30px;
+    }
+
+    .buttonFormWhite{
+        border-radius: 20px;
+        width: 325px;
+        display: flex;
+        height: 74px;
+        padding: 20px 30px;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+
+    .formWhite{
+        max-width: 325px;
+        width: 100%;
     }
 }
