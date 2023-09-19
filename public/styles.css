@@ -20,33 +20,73 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.5s ease;
 }
 
 .preloaderLogo {
     width: 100px;
     height: 100px;
-    transition: all 0.5s ease;
 }
 
-/*scale mini animation logo*/
-@keyframes scale {
+.path1, .path2, .path3 {
+    fill: white;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+  
+.path1 {
+    animation: animatePath1 1.5s ease;
+}
+
+.path2 {
+    animation: animatePath2 1s ease;
+}
+
+.path3 {
+    animation: animatePath3 1.5s ease;
+}
+  
+@keyframes animatePath1 {
     0% {
-        transform: scale(1);
+      transform: translateX(50%) translateY(-50%);
+      opacity: 0;
     }
-
-    50% {
-        transform: scale(1.2);
+    30%{
+      opacity: 0;
     }
-
     100% {
-        transform: scale(1);
+      transform: translateX(0%) translateY(0%);
+      opacity: 100%;
+    }
+}
+  
+@keyframes animatePath2 {
+    0% {
+      transform: translateX(-50%) translateY(50%);
+      opacity: 0;
+    }
+    30%{
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%) translateY(0%);
+      opacity: 100%;
+    }
+}
+  
+@keyframes animatePath3 {
+    0% {
+      transform: translateX(50%) translateY(-50%);
+      opacity: 0;
+    }
+    30%{
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%) translateY(0%);
+      opacity: 100%;
     }
 }
 
-.preloaderLogo {
-    animation: scale 1.5s infinite;
-}
 
 @font-face {
     font-family: 'loybox-medium';
@@ -455,7 +495,7 @@ a{
 
 @media (max-width: 1000px)  {
     .title{
-        font-size: 40px;
+        font-size: 37.31px;
         max-width: 325px;
         margin: 20px auto 40px auto;
 
@@ -543,11 +583,5 @@ a{
         flex-direction: column;
         gap: 30px;
         margin-bottom: 5px;
-    }
-}
-
-@media (max-width: 355px)  {
-    .title {
-        font-size: 37.31px;
     }
 }
