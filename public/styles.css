@@ -265,6 +265,13 @@ a{
     height:100%;
 }
 
+.imagen1{
+    margin: auto;
+    width: 100%;
+    max-width: 1620px;
+    height:100%;
+}
+
 .title2{
     color: var(--White, #FFF);
     text-align: center;

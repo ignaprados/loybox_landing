@@ -2,16 +2,15 @@
 const tl = gsap.timeline({ defaults: { ease: Power1.easeInOut } });
 const home = document.getElementById('preloader')
 
-tl.fromTo(".preloaderBg", { opacity: 1 }, { opacity: 0, delay: 2 });
-tl.fromTo(".preloaderLogo", { opacity: 1 }, { opacity: 0, delay: 1.7 });
+tl.fromTo(".preloaderBg", { opacity: 1 }, { opacity: 0, delay: 1.6 });
+tl.fromTo(".preloaderLogo", { opacity: 1 }, { opacity: 0, delay: 1.4 });
 
-tl.to(".preloaderBg", { y: "-100%", duration: .75, delay: 2.3 });
-tl.set("html", { overflowY: "auto" });
+tl.to(".preloaderBg", { y: "-100%", duration: .75, delay: 1.8 });
 
 /* display none preloaderbg after 4 sec */
 setTimeout(function () {
     home.style.display = "none";
-}, 4000);
+}, 2000);
 
 
 
@@ -23,11 +22,11 @@ const sr = ScrollReveal({
   });
 
 /* = SCROLL HOME = */
-sr.reveal('.landing-user-navbar',{delay:2200, origin:'top'});
-sr.reveal('.textTitle',{delay: 2200, origin: 'bottom'});
+sr.reveal('.landing-user-navbar',{delay:1800, origin:'top'});
+sr.reveal('.textTitle',{delay: 1800, origin: 'bottom'});
 
 /* = SCROLL IMG = */
-sr.reveal('#first-img',{delay: 2200, origin: 'bottom'});
+sr.reveal('.imagen1',{delay: 1800, origin: 'bottom'});
 sr.reveal('.imagen',{delay: 400, interval: 50, origin: 'bottom'});
 
 /* = SCROLL ABOUT = */
