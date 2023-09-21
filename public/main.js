@@ -15,7 +15,7 @@ setTimeout(function () {
 /* html overflow-y auto after 1.6s */
 setTimeout(function () {
     document.getElementsByTagName("html")[0].style.overflowY = "auto";
-}, 1700);
+}, 2000);
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const sr = ScrollReveal({
