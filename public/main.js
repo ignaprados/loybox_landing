@@ -10,12 +10,12 @@ tl.to(".preloaderBg", { y: "-100%", duration: .75, delay: 1.8 });
 /* display none preloaderbg after 4 sec */
 setTimeout(function () {
     home.style.display = "none";
-}, 1800);
+}, 2000);
 
 /* html overflow-y auto after 1.6s */
 setTimeout(function () {
     document.getElementsByTagName("html")[0].style.overflowY = "auto";
-}, 1800);
+}, 2000);
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const sr = ScrollReveal({
