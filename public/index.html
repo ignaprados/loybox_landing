@@ -212,5 +212,23 @@
   <!-- JS -->
   <script src="main.js"></script>
 
+  <script>
+    // Función para ocultar el preloader y mostrar el contenido después de un retraso
+    function hidePreloader() {
+      setTimeout(function() {
+        // Oculta el preloader
+        var preloader = document.getElementById("preloader");
+        preloader.style.display = "none";
+  
+        // Muestra el contenido principal de la página
+        var content = document.getElementById("content");
+        content.style.display = "block";
+      }, 1000); // Cambia el valor de 2000 a la cantidad de milisegundos que desees de retraso antes de que se oculte el preloader
+    }
+  
+    // Llama a la función hidePreloader cuando la página se carga completamente
+    window.addEventListener("load", hidePreloader);
+  </script>
+
 
   </html>
