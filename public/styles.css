@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #0F0F0F;
     margin: 0;
 }
 
@@ -10,7 +10,7 @@ html {
 }
 
 .preloaderBg {
-    background-color: #000;
+    background-color: #0F0F0F;
     position: absolute;
     top: 0;
     left: 0;
@@ -334,6 +334,32 @@ a{
     height:100%;
 }
 
+.descript {
+    width: 100%;
+    max-width: 1620px;
+    margin: 65px auto;
+    padding-left: 90px;
+}
+
+.descript p {
+    color: #F0F0F0;
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+}
+
+.descript .text-large {
+    max-width: 643px;
+}
+
+.descript .text-small {
+    max-width: 615px;
+}
+
+
 .title2{
     color: var(--White, #FFF);
     text-align: center;
@@ -341,7 +367,7 @@ a{
     font-size: 60px;
     font-weight: 500;
     width: 1115px;
-    margin: 350px auto 200px auto;
+    margin: 350px auto 350px auto;
 }
 
 .loyvectors{
@@ -351,14 +377,15 @@ a{
 
 .whiteBackground{
     margin: auto;
-    background-color: white;
+    background-color: #141414;
     width: 100%;
     margin-top: -5px;
     padding: 80px 0 80px 0;
+    border-top: 1px solid #3C3C3C;
 }
 
 .whiteBackground2{
-    background-color: white;
+    background-color: #141414;
     width: 100%;
     padding: 0px 0 30px 0;
     margin: 0 auto 0 auto;
