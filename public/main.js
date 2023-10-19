@@ -31,6 +31,7 @@ sr.reveal('.textTitle',{delay: 1800, origin: 'bottom'});
 /* = SCROLL IMG = */
 sr.reveal('.imagen1',{delay: 1800, origin: 'top'});
 sr.reveal('.imagen',{delay: 400, interval: 50, origin: 'bottom'});
+sr.reveal('.descript',{delay: 400, interval: 50, origin: 'left'});
 
 /* = SCROLL ABOUT = */
 sr.reveal('.title2',{delay: 300, origin: 'bottom'});
