@@ -691,3 +691,6 @@ a{
     }
 }
 
+.youtube{
+    display: none !important;
+}
