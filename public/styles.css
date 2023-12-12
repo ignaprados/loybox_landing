@@ -1,11 +1,12 @@
 body {
     background-color: #0F0F0F;
     margin: 0;
+    overflow-x: hidden !important;
 }
 
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     overflow-y: hidden;
 }
 
@@ -129,24 +130,24 @@ html {
 /* Estilos para la barra de desplazamiento */
 ::-webkit-scrollbar {
     width: 10px;
-    background-color: rgb(0, 0, 0);
+    background-color: #1E1E1E;
 
   }
 
     /* Estilos para la barra de desplazamiento (la parte que se arrastra) */
     ::-webkit-scrollbar-thumb {
-    background-color: rgb(255, 255, 255);
-    border-radius: 50px;
+    background-color: #3C3C3C;
+    border-radius: 2px;
     }
 
     /* Estilos para la barra de desplazamiento (hover) */
     ::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: #3C3C3C;
     }
 
 ::selection {
-    background-color: black;
-    color: white;
+    background-color: #F0F0F0;
+    color: #0F0F0F;
 }
 
 .landing-user{
@@ -172,7 +173,7 @@ html {
 }
 
 .loybox-text{
-    color: var(--white, #FFF);
+    color: #F0F0F0;
     font-family: 'loybox-medium';
     font-size: 40px;
     font-style: normal;
@@ -196,10 +197,10 @@ html {
 }
 
 .landing-user-navbar-button-register{
-    color: var(--white, #FFF);
+    color: #F0F0F0;
     border: 1px white solid;
     padding: 0px 30px;
-    border-radius: 50px;
+    border-radius: 4px;
     font-weight: 600;
     transition: all 0.2s;
     min-width: 113px;
@@ -228,7 +229,7 @@ html {
 }
 
 .subtitle{
-    color: var(--White, #FFF);
+    color: #F0F0F0;
     text-align: center;
     font-family: 'loybox-roman';
     font-size: 24px;
@@ -238,7 +239,7 @@ html {
 }
 
 .title{
-    color: var(--White, #FFF);
+    color: #F0F0F0;
     text-align: center;
     font-family: 'loybox-roman';
     font-size: 80px;
@@ -253,36 +254,54 @@ html {
 
 .buttonsWhitelist-Email{
     height: 65px;
-    max-width: 507px;
+    max-width: 522px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .whitelist{
     width: 225px;
     height: 65px;
-    background-color: white;
+    background-color: #f0f0f0;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 50px;
+    border-radius: 4px;
     transition: all 0.3s ease;
-    border: 1px solid #000;
+    border: 1px solid #0f0f0f;
 
 }
 
+.whitelist svg {
+    transition: all 0.3s ease;
+}
+
 .whitelist:hover {
+    background-color: #0f0f0f;
+    border: 1px solid #f0f0f0;
+}
+
+.whitelist:hover .whitelistText {
+    color: #f0f0f0;
+}
+
+.whitelist:hover svg {
     filter: invert(1);
 
 }
 
 .whitelistText{
-    color: var(--Black, #000);
+    color: #0F0F0F;
     font-family: 'loybox-medium';
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    transition: all 0.3s ease;
 }
 
 a{
@@ -294,23 +313,38 @@ a{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 275px;
+    width: 276px;
     height: 65px;
+    transition: all 0.3s ease;
+    border: 1px solid #0f0f0f;
+    border-radius: 4px;
+    background-color: #252525;
+}
+
+.email svg {
     transition: all 0.3s ease;
 }
 
+.email:hover {
+    background-color: #0f0f0f;
+    border: 1px solid #f0f0f0;
+}
+
+.email:hover .emailText {
+    color: #f0f0f0;
+}
+
+
 .emailText{
-    color: var(--White, #FFF);
+    color: #F0F0F0;
     font-family: 'loybox-medium';
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    transition: all 0.3s ease;
 }
 
-.email:hover{
-    transform: translateY(-10px)
-}
 
 .imagenes {
     display: flex;
@@ -325,6 +359,8 @@ a{
     width: 100%;
     max-width: 1620px;
     height:100%;
+    border: 1px solid #3C3C3C;
+    border-radius: 4px;
 }
 
 .imagen1{
@@ -332,6 +368,8 @@ a{
     width: 100%;
     max-width: 1620px;
     height:100%;
+    border: 1px solid #3C3C3C;
+    border-radius: 4px;
 }
 
 .descript {
@@ -343,7 +381,7 @@ a{
 
 .descript p {
     color: #F0F0F0;
-    font-family: Neue Haas Grotesk Display Pro;
+    font-family: 'loybox-roman';
     font-size: 60px;
     font-style: normal;
     font-weight: 500;
@@ -361,7 +399,7 @@ a{
 
 
 .title2{
-    color: var(--White, #FFF);
+    color: #F0F0F0;
     text-align: center;
     font-family: 'loybox-roman';
     font-size: 60px;
@@ -372,7 +410,7 @@ a{
 
 .loyvectors{
     width: 100%;
-    margin: 0;
+    margin-bottom: -5px;
 }
 
 .whiteBackground{
@@ -387,7 +425,6 @@ a{
 .whiteBackground2{
     background-color: #141414;
     width: 100%;
-    padding: 0px 0 30px 0;
     margin: 0 auto 0 auto;
     text-align: center;
 }
@@ -412,10 +449,10 @@ a{
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
-    border-radius: 20px 0px 0px 20px;
-    border: 1px solid var(--Border-White, #EEE);
-    background: var(--Input-White, #FBFBFB);
-    color: var(--Light-Grey, #000);
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid #3C3C3C;
+    background: #0F0F0F;
+    color: #f0f0f0;
     font-family: 'loybox-roman';
     font-size: 20px;
     font-weight: 500;
@@ -423,7 +460,7 @@ a{
 }
 
 .inputFormWhite::placeholder{
-    color: var(--Light-Grey, #9F9F9F);
+    color: #757575;
     font-family: 'loybox-roman';
     font-size: 20px;
     font-weight: 500;
@@ -437,15 +474,15 @@ a{
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
-    border-radius: 0px 20px 20px 0px;
-    background: var(--Black, #000);
+    border-radius: 0px 4px 4px 0px;
+    background: #252525;
     border: none;
     cursor: pointer;
 
 }
 
 .title3{
-    color: var(--Black, #000);
+    color: #F0F0F0;
     font-family: 'loybox-medium';
     font-size: 26.31666666666668vw;
     font-weight: 600;
@@ -453,14 +490,14 @@ a{
 }
 
 .buttonFormWhiteText{
-    color: var(--White, #FFF);
+    color: #F0F0F0;
     font-family: 'loybox-medium';
     font-size: 20px;
     font-weight: 600;
 }
 
 .divWhiteTitle{
-    color: var(--Black, #000);
+    color: #F0F0F0;
     text-align: center;
     font-family: 'loybox-roman';
     font-size: 60px;
@@ -471,20 +508,21 @@ a{
 
 .topcredit{
     padding: 0 20px;
+    background-color: #f0f0f0;
 }
 
-.credits{
+.credits {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1620px;
-    margin: 30px auto 0 auto;
-    border-top: 1px solid #EEE;
+    margin: 0px auto 0 auto;
     padding-top:30px;
+    padding-bottom: 30px;
 }
 
 .creditsText{
-    color: var(--Black, #000);
+    color: #0F0F0F;
     font-family: 'loybox-roman';
     font-size: 20px;
     font-weight: 500;
@@ -526,6 +564,18 @@ a{
     .divWhiteTitle{
         font-size: 28.95px;
     }
+    .descript{
+        padding-left: 0;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .descript p {
+        font-size: 33.49px;
+        max-width: 420px !important;
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media (max-width: 1100px)  {
@@ -552,6 +602,14 @@ a{
         display: flex;
         flex-direction: column;
         gap: 20px;
+        justify-content: flex-start;
+    }
+
+    .whitelist {
+        width: 300px;
+    }
+    .email {
+        width: 300px;
     }
 
     .subtitle{
@@ -602,14 +660,14 @@ a{
     }
 
     .inputFormWhite{
-        border-radius: 20px;
+        border-radius: 4px;
         max-width: 262px;
         width: 100%;
         padding-right: 30px;
     }
 
     .buttonFormWhite{
-        border-radius: 20px;
+        border-radius: 4px;
         width: 325px;
         display: flex;
         height: 74px;
@@ -625,7 +683,7 @@ a{
     }
 }
 
-@media (max-width: 500px)  {
+@media (max-width: 610px)  {
     .credits {
         flex-direction: column;
         gap: 30px;
@@ -633,5 +691,6 @@ a{
     }
 }
 
- 
-  
+.youtube{
+    display: none !important;
+}
